@@ -1,0 +1,20 @@
+ 
+def kappapride():
+    x = "Faal is a noob , ael is a noob ,al is a noob ,"
+    app =   [ [x,x,x,x,x,x,x,x,x],
+              [x,x,x,x,x,x,x,x,x],
+              [x,x,x,x,x,x,x,x,x],
+              [x,x,x,x,x,x,x,x,x],
+              [x,x,x,x,x,x,x,x,x],
+
+              
+            ]
+    return app
+
+def lola():
+    for i in kappapride():
+        for a in i * 100 :
+          print(a)
+          
+
+lola()
