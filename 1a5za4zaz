@@ -1,6 +1,9 @@
+#gueeser app pytho for fun made by powned
+
+
 import random
 import os
-print("welcome to the the Gusser app /n You have to chosse a number between 1 - 100 until you find the corect Number")
+print("welcome to the the Gusser app 8\n You have to chosse a number between 1 - 100 until you find the corect Number")
 
 var1 = str(random.randint(0,100))
 
@@ -9,7 +12,7 @@ running = True
 while running: 
  var4 = str(input("PLEASE THE NUMBER HERE:"))
  if str(var4) == str(var1):
-  var2 += 0
+  var2 += 1
   print ("you won " + "   Tries = " + str(var2) ) 
   print ( "enter any key to leave the app")
   os.system("pause")
@@ -21,6 +24,6 @@ while running:
   var2 += 1
   print("Guess lower   " + "   Tries = " + str(var2))
   
-
+quit()
    
       
